@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: #0e0e0e;
+    color: #999999;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    display:flex;  
+    list-style:none;
+}
+
+a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #cccccc;
+}
+
+/* Header */
+header{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #999999;
+}
+
+header div img{
+    height: 50px;
+    padding-left: 12%;
+}
+
+header li{
+    position: absolute;
+    top: 8px;
+}
+
+header li:nth-of-type(1){
+    left: 15%;
+}
+
+header li:nth-of-type(2){
+    right: 42%;
+}
+
+header li:nth-of-type(3){
+    right: 28%;
+}
+
+header li:nth-of-type(4){
+    right: 20%;
+}
+
+header li:nth-of-type(5){
+    right: 10%;
+}
+
+/* Section */
+h1{
+    font-size: 60px;
+    width: 350px;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+
+p a{
+    color: darkgoldenrod;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 580px;
+    left: 200px;
+}
+
+p a:hover{
+    color: goldenrod;
+}
+
+section img{
+    height: 750px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+}
+
+section img:nth-of-type(1){
+    right: 860px;
+}
+
+section img:nth-of-type(1):hover{
+    border: 1px solid #999999;
+    height: 800px;
+    width:initial;
+}
+
+section img:nth-of-type(2){
+    right: 440px;
+}
+
+section img:nth-of-type(2):hover{
+    border: 1px solid #999999;
+    height: 800px;
+    width:initial;
+}
+
+section img:nth-of-type(3){
+    right: 20px;
+}
+
+section img:nth-of-type(3):hover{
+    border: 1px solid #999999;
+    height: 800px;
+    width:initial;
+}
+
+/* Footer */
+footer img{
+    height: 20px;
+}
+
+footer img:hover{
+    height: 30px;
+}
+
+footer li{
+    position: absolute;
+    bottom: 2%;
+}
+
+footer li:nth-of-type(1){
+    left: 3%;
+}
+
+footer li:nth-of-type(2){
+    left: 6%;
+}
+
+footer li:nth-of-type(3){
+    left: 9%;
+}
